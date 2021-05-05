@@ -1,6 +1,6 @@
 def spiralize(size, n=1):
     
-    counter = 0
+    counter =0
     incrt = 0
     while n ** 2:
         return_value += n
