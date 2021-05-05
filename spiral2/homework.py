@@ -12,7 +12,7 @@ def spiralize(size, n=1):
             counter = 0 
    
     return return_value
-result = spiralize(, 5)
+result = spiralize(5)
 print(result)
 
 
