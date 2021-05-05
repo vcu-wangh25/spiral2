@@ -2,7 +2,7 @@ def spiralize(size, n=1):
     
     counter = 0
     incrt = 0
-    while n <= size ** 2:
+    while n ** 2:
         return_value += n
         n += incrt
         counter += 1
@@ -11,5 +11,5 @@ def spiralize(size, n=1):
             counter = 0 
    
     return return_value
-result = spiralize(5, 2)
+result = spiralize(501, 2)
 print(result)
